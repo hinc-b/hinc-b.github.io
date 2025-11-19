@@ -125,13 +125,17 @@ body {
     .split-container {
       flex-direction: column;
       height: auto;
+      width: 100vw;
+    }
+    .split {
+      width: 100vw;
+      height: 50vh;
+      position: static;
+      align-items: flex-start;
+      justify-content: center;
     }
     .content {
-      max
-  -width: 100%;
+      max-width: 100%;
       padding: 40px 20px;
-    }
-    .stats {
-      gap: 30px;
     }
   }
